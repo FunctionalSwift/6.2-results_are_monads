@@ -27,9 +27,3 @@ func createUser(name: String, password: String, premium: Bool, newsletter: Bool)
 let user = createUser(name: "alex", password: "functionalswift", premium: true, newsletter: false)
 
 user.map { print("SUCCESS: User created - \($0)") }
-
-
-
-
-
-

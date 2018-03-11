@@ -6,3 +6,11 @@
 ## Video 2: Your Results are monads
 
 Copyright © [FunctionalHub.com](http://functionalHub.com) 2018. All rights reserved.
+
+<p align="center">
+<img src="./images/code.png" alt="Code" width="600"/>
+</p>
+
+<p align="center">
+<img src="./images/code2.png" alt="Code" width="600"/>
+</p>

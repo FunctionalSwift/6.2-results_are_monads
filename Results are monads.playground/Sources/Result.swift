@@ -2,13 +2,13 @@ public enum Result<A, E> {
     case success(_: A)
     case failure(_: E)
     
-    func map<B>(_ transform: (A) -> B) -> Result<B, E> {
+    public func map<B>(_ transform: (A) -> B) -> Result<B, E> {
         return self.flatMap { .success(transform($0)) }
     }
 }
 
 extension Result {
-    func flatMap<B>(_ transform: (A) -> Result<B, E>) -> Result<B, E> {
+    public func flatMap<B>(_ transform: (A) -> Result<B, E>) -> Result<B, E> {
         switch self {
         case let .success(value):
             return transform(value)
