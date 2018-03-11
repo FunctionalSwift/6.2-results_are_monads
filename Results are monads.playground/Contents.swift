@@ -1,0 +1,1 @@
+//: Playground - Results are monads
